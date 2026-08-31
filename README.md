@@ -439,14 +439,9 @@ re-exports ours; the organisers' original starter is preserved verbatim at
 | Member | Contribution |
 |---|---|
 | **[@d4zb](https://github.com/d4zb)** | |
-| **Brendan Lim** | |
+| **[@Brendan-Lim](https://github.com/Brendan-Lim)** | |
 
-<!-- TODO before submission:
-     1. Split the contributions below between the two members.
-     2. Replace "Brendan Lim" with the real GitHub handle and link it.
-        Note: "Brendan_Lim" is not a valid GitHub username (underscores are not
-        allowed), so it 404s. Both github.com/Brendan-Lim and github.com/BrendanLim
-        exist — confirm which is correct before linking.
+<!-- TODO before submission: split the contributions between the two members.
 
      Workstreams, for reference when splitting:
        - Evaluator recon and the scoring-formula analysis that set the strategy
