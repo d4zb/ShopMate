@@ -436,11 +436,28 @@ re-exports ours; the organisers' original starter is preserved verbatim at
 
 ## 👥 Team
 
-<!-- TODO: fill in before submission. -->
-
 | Member | Contribution |
 |---|---|
-| | |
+| **[@d4zb](https://github.com/d4zb)** | |
+| **Brendan Lim** | |
+
+<!-- TODO before submission:
+     1. Split the contributions below between the two members.
+     2. Replace "Brendan Lim" with the real GitHub handle and link it.
+        Note: "Brendan_Lim" is not a valid GitHub username (underscores are not
+        allowed), so it 404s. Both github.com/Brendan-Lim and github.com/BrendanLim
+        exist — confirm which is correct before linking.
+
+     Workstreams, for reference when splitting:
+       - Evaluator recon and the scoring-formula analysis that set the strategy
+       - Simulator model + inversion index (src/simulator_model.py, src/inversion.py)
+       - Retrieval: hand-rolled BM25, popularity prior, RRF (src/retrieval.py)
+       - Conversion-timing policy and the expected-value rule (src/policy.py)
+       - Robustness hardening: three-tier resolution and the perturbation harness
+       - Measurement tooling: ablation, sweep, error analysis, demo (scripts/)
+       - Test suite and reproducibility: 49 tests, determinism, frozen splits
+-->
+
 
 ---
 
