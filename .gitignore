@@ -3,8 +3,14 @@ __pycache__/
 .DS_Store
 .env
 results.json
+results*.json
 data/catalog.jsonl
+data/catalog.jsonl.gz
 data/releases/
+# Derived offline artifacts: embeddings and inversion tables. Rebuilt by scripts/build_index.py.
+cache/
+.venv/
+.pytest_cache/
 # Organizer-only code, private evaluation data, manifests, and build reports.
 organizer/
 secure/
