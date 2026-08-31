@@ -1,0 +1,90 @@
+{
+  "split": "dev",
+  "rows": [
+    {
+      "configuration": "provided BM25 starter",
+      "hit_rate_at_10": 0.12,
+      "mrr": 0.067156,
+      "mttc": 9.86,
+      "technical_score": 0.102947,
+      "seconds": 91.6
+    },
+    {
+      "configuration": "BM25 only",
+      "hit_rate_at_10": 0.84,
+      "mrr": 0.555489,
+      "mttc": 3.846667,
+      "technical_score": 0.729713,
+      "seconds": 24.9,
+      "recall_at_10": 0.84,
+      "recall_at_50": 0.926667,
+      "recall_at_200": 0.98
+    },
+    {
+      "configuration": "popularity prior only",
+      "hit_rate_at_10": 0.04,
+      "mrr": 0.007026,
+      "mttc": 10.62,
+      "technical_score": 0.029708,
+      "seconds": 30.1,
+      "recall_at_10": 0.04,
+      "recall_at_50": 0.146667,
+      "recall_at_200": 0.426667
+    },
+    {
+      "configuration": "+ RRF fusion of both",
+      "hit_rate_at_10": 0.886667,
+      "mrr": 0.623114,
+      "mttc": 3.273333,
+      "technical_score": 0.784801,
+      "seconds": 25.3,
+      "recall_at_10": 0.886667,
+      "recall_at_50": 0.94,
+      "recall_at_200": 0.986667
+    },
+    {
+      "configuration": "+ dense MiniLM and RRF",
+      "hit_rate_at_10": 0.846667,
+      "mrr": 0.428524,
+      "mttc": 3.606667,
+      "technical_score": 0.699757,
+      "seconds": 138.7,
+      "recall_at_10": 0.846667,
+      "recall_at_50": 0.953333,
+      "recall_at_200": 0.993333
+    },
+    {
+      "configuration": "+ simulator inversion",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.716183,
+      "mttc": 1.993333,
+      "technical_score": 0.891655,
+      "seconds": 15.3,
+      "recall_at_10": 0.993333,
+      "recall_at_50": 1.0,
+      "recall_at_200": 1.0
+    },
+    {
+      "configuration": "+ conversion timing (full)",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.966508,
+      "mttc": 2.653333,
+      "technical_score": 0.953552,
+      "seconds": 18.1,
+      "recall_at_10": 0.993333,
+      "recall_at_50": 1.0,
+      "recall_at_200": 1.0
+    },
+    {
+      "configuration": "full + dense",
+      "hit_rate_at_10": 0.986667,
+      "mrr": 0.967222,
+      "mttc": 2.66,
+      "technical_score": 0.9503,
+      "seconds": 68.7,
+      "recall_at_10": 0.986667,
+      "recall_at_50": 1.0,
+      "recall_at_200": 1.0
+    }
+  ]
+}

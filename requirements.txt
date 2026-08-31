@@ -1,5 +1,12 @@
+# Runtime dependencies for the shipped agent. CPU-only, no GPU, no network.
 numpy>=1.26
-pandas>=2.0
 rank_bm25>=0.2.2
-sentence-transformers>=2.7
+
+# Test suite only.
 pytest>=8.0
+
+# NOTE: sentence-transformers (and its ~2.5 GB torch dependency) is deliberately
+# NOT here. It was built and measured, and it made the score worse: the retrieval
+# floor fell from 0.7848 to 0.6998 and the full system from 0.9536 to 0.9503.
+# See README "Measured null results". To reproduce those two ablation rows:
+#     pip install -r requirements-ablation.txt

@@ -1,0 +1,96 @@
+{
+  "split": "dev",
+  "sessions": 150,
+  "rows": [
+    {
+      "policy": "threshold",
+      "threshold": 1,
+      "label": "K=1",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.959841,
+      "mttc": 2.8,
+      "technical_score": 0.948619
+    },
+    {
+      "policy": "threshold",
+      "threshold": 2,
+      "label": "K=2",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.949841,
+      "mttc": 2.673333,
+      "technical_score": 0.948152
+    },
+    {
+      "policy": "threshold",
+      "threshold": 3,
+      "label": "K=3",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.953175,
+      "mttc": 2.62,
+      "technical_score": 0.950219
+    },
+    {
+      "policy": "threshold",
+      "threshold": 5,
+      "label": "K=5",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.940397,
+      "mttc": 2.54,
+      "technical_score": 0.947986
+    },
+    {
+      "policy": "threshold",
+      "threshold": 7,
+      "label": "K=7",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.925286,
+      "mttc": 2.466667,
+      "technical_score": 0.944919
+    },
+    {
+      "policy": "threshold",
+      "threshold": 10,
+      "label": "K=10",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.898786,
+      "mttc": 2.413333,
+      "technical_score": 0.938036
+    },
+    {
+      "policy": "threshold",
+      "threshold": 25,
+      "label": "K=25",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.834069,
+      "mttc": 2.22,
+      "technical_score": 0.922487
+    },
+    {
+      "policy": "threshold",
+      "threshold": 50,
+      "label": "K=50",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.777762,
+      "mttc": 2.106667,
+      "technical_score": 0.907862
+    },
+    {
+      "policy": "threshold",
+      "threshold": null,
+      "label": "always recommend",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.716183,
+      "mttc": 1.993333,
+      "technical_score": 0.891655
+    },
+    {
+      "policy": "expected_value",
+      "threshold": null,
+      "label": "expected-value (untuned)",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.966508,
+      "mttc": 2.653333,
+      "technical_score": 0.953552
+    }
+  ]
+}

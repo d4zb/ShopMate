@@ -1,0 +1,5 @@
+# Optional: only needed to reproduce the two dense-retrieval ablation rows,
+# which measured worse than the shipped configuration and are therefore not part
+# of the submission. Pulls ~2.5 GB of torch.
+-r requirements.txt
+sentence-transformers>=2.7

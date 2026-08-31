@@ -1,0 +1,78 @@
+{
+  "split": "dev",
+  "sessions": 150,
+  "rows": [
+    {
+      "perturbation": "none (control)",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.966508,
+      "mttc": 2.653333,
+      "technical_score": 0.953552,
+      "delta_vs_control": 0.0
+    },
+    {
+      "perturbation": "trailing period dropped",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.966508,
+      "mttc": 2.653333,
+      "technical_score": 0.953552,
+      "delta_vs_control": 0.0
+    },
+    {
+      "perturbation": "opener reworded",
+      "hit_rate_at_10": 0.986667,
+      "mrr": 0.950963,
+      "mttc": 2.96,
+      "technical_score": 0.939422,
+      "delta_vs_control": -0.01413
+    },
+    {
+      "perturbation": "'; ' delimiter -> ', '",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.965952,
+      "mttc": 2.666667,
+      "technical_score": 0.953119,
+      "delta_vs_control": -0.000433
+    },
+    {
+      "perturbation": "polite prefix added",
+      "hit_rate_at_10": 0.993333,
+      "mrr": 0.966508,
+      "mttc": 2.626667,
+      "technical_score": 0.954086,
+      "delta_vs_control": 0.000534
+    },
+    {
+      "perturbation": "trailing chatter added",
+      "hit_rate_at_10": 0.84,
+      "mrr": 0.80123,
+      "mttc": 4.073333,
+      "technical_score": 0.798902,
+      "delta_vs_control": -0.15465
+    },
+    {
+      "perturbation": "all lowercase",
+      "hit_rate_at_10": 0.953333,
+      "mrr": 0.888667,
+      "mttc": 3.24,
+      "technical_score": 0.898467,
+      "delta_vs_control": -0.055085
+    },
+    {
+      "perturbation": "double spaces",
+      "hit_rate_at_10": 0.953333,
+      "mrr": 0.888667,
+      "mttc": 3.24,
+      "technical_score": 0.898467,
+      "delta_vs_control": -0.055085
+    },
+    {
+      "perturbation": "last word dropped",
+      "hit_rate_at_10": 0.746667,
+      "mrr": 0.677082,
+      "mttc": 5.086667,
+      "technical_score": 0.694725,
+      "delta_vs_control": -0.258827
+    }
+  ]
+}
